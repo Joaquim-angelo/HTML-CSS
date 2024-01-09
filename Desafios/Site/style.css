@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'Pt_sans';
+    src: url(fontes/PT_Sans/PTSans-Bold.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'Bebas';
+    src: url(fontes/Bebas_Neue/BebasNeue-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*variáveis*/
+:root{
+    --cor1:#044966;
+    --cor2:#012030;
+    --cor3:#13678A;
+    --fonte-padrao:Pt_sans;
+    --Fonte-destaque:Bebas;
+}
+
+header{
+    margin-bottom: 25px;
+}
+
+footer{
+    background-color: black;
+    font-size: 11px;
+    margin-top: 30px;
+}
+
+body{
+    font-family: var(--fonte-padrao);
+    background-color: #012030;
+    color: white;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+}
+
+.menu{
+    background-color: #044966;
+}
+
+h1{
+    font-family:var(--Fonte-destaque) ;
+    font-size: 40px;
+    text-shadow: 4px 4px black;
+}
+
+
+nav{
+    color: blueviolet;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+nav ul li a:hover{
+    background-color: aquamarine;
+}
+
+a{
+    color:white;
+    font-size: 20px;
+    font-family: var(--Fonte-destaque);
+    text-decoration: none;
+}
+
+h1>a{
+    padding-top: 30px;
+}
+
+.requisitos{
+    color: white;
+    background-color: rgb(7, 7, 7);
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: var(--Fonte-destaque);
+    font-size: 25px;
+    border: 10px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

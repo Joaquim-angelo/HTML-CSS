@@ -1,0 +1,9 @@
+@charset "UTF8";
+*{/*Configuração global css*/
+    height: 100%;
+}
+body {
+    background-image:linear-gradient(to left,rgba(223, 8, 177, 0.055), rgb(8, 223, 62) , #000) ;
+    background-attachment: fixed;
+    color: aliceblue;
+}
