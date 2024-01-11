@@ -27,7 +27,7 @@ h1{
     font-size: 30px;
     background-color:rgb(165, 26, 26);
     height: 60px;
-    width: 150px;
+    width: 170px;
     margin: auto;
     color: white;
     border-radius: 15px;
@@ -37,17 +37,32 @@ h1{
     padding-top:10px ;
 }
 
-.social{
+.instagram{
     font-size: 30px;
     background-image:linear-gradient(#C302F0,#F21F68, #FF8F00);
     height: 60px;
-    width: 150px;
+    width: 170px;
     margin: auto;
     color: white;
     border-radius: 15px;
 }
 
-.social>p{
+.instagram>p{
+    text-decoration: none;
+    padding-top:10px ;
+}
+
+.wattsapp{
+    font-size: 30px;
+    background-color:#00ff4c;
+    height: 60px;
+    width: 170px;
+    margin: auto;
+    color: white;
+    border-radius: 15px;
+}
+
+.wattsapp>p{
     text-decoration: none;
     padding-top:10px ;
 }
