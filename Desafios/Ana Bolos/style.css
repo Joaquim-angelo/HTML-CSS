@@ -102,3 +102,60 @@ a{
 #recheios{
     background-image: url(imagens/recheio.jpg);
 }
+
+.tabelas{
+    width:250px;
+    height:140px;
+    border: 5px solid black;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.tabelas>p{
+    margin-left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.tabelas>h2{
+    margin-left: 6px;
+    color: white;
+}
+
+#mini{
+    background-image: linear-gradient(to right, black, lime);
+}
+
+#pp{
+    background-image: linear-gradient(to right, black,purple)
+}
+
+#pp2{
+    background-image: linear-gradient(to right,black, aqua);
+}
+
+#p{
+    background-image: linear-gradient(to right,black, grey);
+}
+
+#mp{
+    background-image: linear-gradient(to right,black,yellow);
+}
+
+#m{
+    background-image: linear-gradient(to right,black,red);
+}
+
+#mg{
+    background-image: linear-gradient(to right,black,pink);
+}
+
+#g{
+    background-image: linear-gradient(to right,black,darkblue);
+}
+#xg{
+    background-image: linear-gradient(to right,black,#F21380);
+}
+#gg{
+    background-image: linear-gradient(to right,black,white);
+}
