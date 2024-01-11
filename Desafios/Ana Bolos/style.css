@@ -7,14 +7,6 @@
     font-style: normal;
 }
 
-body{
-    background-image:linear-gradient(#00000001,#00000063),url(bolo.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat:no-repeat;
-    min-height: 100vh;
-}
-
 :root{
     --fonte_titulo:'fanlste',Arial bold,Verdana;
 }
@@ -22,12 +14,12 @@ body{
 header{
     padding-top: 15px;
     padding-bottom: 20px;
+    margin-left: 20px;
 }
 
 h1{
     font-family:var(--fonte_titulo);
     font-size: 60px;
-    text-align: center;
     color:white;
 }
 
@@ -77,8 +69,4 @@ h1{
 
 a{
     text-decoration: none;
-}
-
-img{
-    width: 100%;
 }
