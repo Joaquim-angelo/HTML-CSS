@@ -20,7 +20,7 @@ header{
 h1{
     font-family:var(--fonte_titulo);
     font-size: 50px;
-    color:white;
+    color:rgb(165, 26, 26);
 }
 
 .Entrar{
@@ -82,4 +82,16 @@ a{
 
 #tamanhos{
     background-image: url(imagens/bolo_2.jpg);
+}
+
+#coberturas{
+    background-image: url(imagens/cobertura.jpg);
+}
+
+#massas{
+    background-image: url(imagens/massa.jpg);
+}
+
+#recheios{
+    background-image: url(imagens/recheio.jpg);
 }
