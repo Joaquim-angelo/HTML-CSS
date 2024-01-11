@@ -159,3 +159,25 @@ a{
 #gg{
     background-image: linear-gradient(to right,black,white);
 }
+#Baunilha{
+    background-image: url(imagens/baunilha_massa.png);
+}
+#Baunilha>h2{
+    color: black;
+}
+#chocolate{
+    background-image: url(imagens/chocolate_massa.webp);
+}
+#mista{
+    background-image: url(imagens/mista_massa.jpg);
+    background-position: center center;
+}
+#amanteigada{
+    background-image: url(imagens/massa-amanteigada.jpg);
+}
+#maracujá{
+    background-image: url(imagens/maracujá_massa.jpg);
+}
+#laranja{
+    background-image: url(imagens/laranja_massa.png);
+}
