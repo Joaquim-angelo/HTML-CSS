@@ -1,0 +1,94 @@
+@charset 'UTF8';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    font-family: Roboto;
+    font-size: 2vw;
+    padding-bottom: 2em;
+}
+
+h1{
+    font-size: 10vw;
+}
+
+html,body{
+    min-height:100vh;
+    background-color:darkgray;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header>h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header>p{
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal{
+    background-color:white;
+    color: black;
+}
+
+section.imagem{
+    background-color: darkgray;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.466);
+    background-attachment: fixed;
+}
+
+section.imagem>p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.37);
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 2px 2px 0px black;
+}
+
+#img01{
+    background-image: url(imagens/tecnologia.avif);
+    background-position: center center;
+    background-size: cover;
+}
+
+#img02{
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    background-size: cover;
+}
