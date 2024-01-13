@@ -169,7 +169,7 @@ a{
     background-image: url(imagens/chocolate_massa.webp);
 }
 #mista{
-    background-image: url(imagens/mista_massa.jpg);
+    background-image: url(imagens/massa_mista.webp);
     background-position: center center;
 }
 #amanteigada{
@@ -180,4 +180,49 @@ a{
 }
 #laranja{
     background-image: url(imagens/laranja_massa.png);
+}
+#Chantilly{
+    background-image: url(imagens/bolo.jpg);
+}
+#Glace{
+    background-image: url(imagens/glace_de_leite.jpg);
+}
+#Chantininho{
+    background-image: url(imagens/bolo_5.jpg);
+}
+#branco{
+    background-color: aliceblue;
+}
+#Chocolate{
+    background-image: url(imagens/choc.jpeg);
+}
+#castanha{
+    background-image: url(imagens/castanha.jpg);
+}
+#amendoim{
+    background-image: url(imagens/amendoim.webp);
+}
+#coco{
+    background-image: url(imagens/coco.jpeg);
+}
+#tres{
+    background-color: yellow;
+}
+#ameixa{
+    background-image: url(imagens/ameixa.jpg);
+}
+#maracuja{
+    background-image: url(imagens/maracuja.jpeg);
+}
+#limão{
+    background-image: url(imagens/limão.jpeg);
+}
+#doce{
+    background-image: url(imagens/doce.jpeg);
+}
+#morango{
+    background-image: url(imagens/morango.jpeg);
+}
+#goiabada{
+    background-image: url(imagens/goiabada.jpg);
 }
