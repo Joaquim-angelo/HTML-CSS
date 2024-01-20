@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+    <style>
+        main{
+            position: absolute;
+            left: 50%;
+            top:50%;
+            transform: translate(-45%,-70%);
+        }
+        table{
+            text-align: center;
+        }
+        td{
+            border: 1px solid black;
+            width: 80px;
+            padding: 10px;
+            color: black;
+            background-color: aqua;
+        }
+        .bt{
+            background-color: black;
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <table>
+           <tr>
+            <td colspan="4" class="bt">A</td>
+            <td rowspan="4" class="bt">B</td>
+           </tr>
+           <tr>
+            <td rowspan="4" class="bt">C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+           </tr>
+           <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+           </tr>
+           <tr>
+            <td>J</td>
+            <td>K</td>
+            <td>L</td>
+           </tr>
+           <tr>
+            <td colspan="4" class="bt">M</td>
+           </tr>
+        </table>
+    </main>
+</body>
+</html>
