@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Media Query sem CSS</title>
     <style>
         /*configurações gerais*/
         *{
@@ -24,6 +24,20 @@
             text-shadow: 3px 3px 0px black;
             padding: 10px;
             text-align: center;
+        }
+        /*configurações retrato*/
+        @media screen and (orientation: portrait) {
+            body{
+            background-image:url(../imagens/cev-portrait.jpg);
+            background-position: bottom;
+            }
+        }
+        /*configurações paisagem*/
+        @media screen and (orientation: landscape) {
+            body{
+            background-image: url(../imagens/cev-landscape.jpg);
+            background-position: left bottom;
+            }
         }
     </style>
 </head>
