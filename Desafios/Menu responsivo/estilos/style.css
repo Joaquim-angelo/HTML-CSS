@@ -21,7 +21,7 @@ header>h1{
 }
 
 menu{
-    display: block;
+    display: none;
 }
 
 menu>ul{
@@ -59,4 +59,18 @@ article>p{
     text-align: justify;
     margin-bottom: 5px;
     text-indent: 20px;
+}
+
+span#burger{
+    background-color: grey;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+span#burger:hover{
+    background-color: white;
+    color: black;
+    /*para o cursor virar uma mão*/
+    cursor: pointer;
 }
